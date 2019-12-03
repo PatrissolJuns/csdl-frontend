@@ -4,4 +4,4 @@ export const PanelColor = {
     FolderColor: 'maroon'
 }
 
-export const BACKEND_URL = 'http://myapp.com';
+export const BACKEND_URL = 'https://csdl-backend.herokuapp.com/api';

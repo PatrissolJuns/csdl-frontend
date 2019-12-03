@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import * as FolderActions from '../actions/folderAction';
-import Home from './../../Components/Home';
+import FolderItem from "../../Components/FolderItem";
 
 const mapStateToProps = (state) => ({
     folders: state.folders
@@ -12,9 +12,9 @@ const mapDispatchToProps = (dispatch) => ({
     actions: bindActionCreators(FolderActions, dispatch),
 });
 
-const HomeContainer = connect(
+const FolderItemContainer = connect(
     mapStateToProps,
     mapDispatchToProps,
-)(Home);
+)(FolderItem);
 
-export default HomeContainer
+export default FolderItemContainer

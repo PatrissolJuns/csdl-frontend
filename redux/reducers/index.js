@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux'
 
-import videos from './video'
+import folders from './folder'
 
 const rootReducer = combineReducers({
-    videos,
+    folders,
 });
 
 export default rootReducer

@@ -29,7 +29,7 @@ import { PanelColor } from  './../conf'
 const MoviesTabNavigator = createBottomTabNavigator(
     {
             Accueil: {
-                screen: Home,
+                screen: HomeContainer,
                 navigationOptions: {
                     tabBarIcon: () => {
                         return <Icon
